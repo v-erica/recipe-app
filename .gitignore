@@ -14,10 +14,15 @@ node_modules
 dist
 dist-ssr
 *.local
+coverage
+.vite
+.cache
+.parcel-cache
 
 # Environment / sensitive files
 .env
 .env.*
+!.env.example
 secrets.*
 secret.*
 *.pem
@@ -28,12 +33,17 @@ secret.*
 # Temporary files and folders
 tmp/
 **/tmp/
+temp/
+**/temp/
+*.tmp
 
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
 .idea
 .DS_Store
+._*
+Thumbs.db
 *.suo
 *.ntvs*
 *.njsproj
