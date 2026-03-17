@@ -64,7 +64,7 @@ npm run lint
 - Backend: Express + Morgan (`morgan('dev')`)
 - Linting: ESLint
 - Entry file: `src/main.jsx`
-- App component in `main.jsx`: `./app.jsx`
+- App component in `main.jsx`: `./App.jsx`
 - Recipe data is now loaded through `GET /api/recipes`.
 
 ## Notes
@@ -80,18 +80,18 @@ npm run lint
 
 ### 2) UI Generation
 - Recipe UI is implemented and styled in:
-  - `src/app.jsx`
+  - `src/App.jsx`
   - `src/components/*`
   - `src/App.css`
 
 ### 3) Sample Data Generation
 - Sample recipe data exists in:
   - `src/data/recipes.js`
-  - `FALLBACK_RECIPES` in `src/app.jsx`
+  - `FALLBACK_RECIPES` in `src/App.jsx`
 
 ### 4) Recipe Display
 - Recipes are fetched from `/api/recipes` and rendered in the list/detail layout:
-  - `src/app.jsx`
+  - `src/App.jsx`
   - `src/components/RecipeList.jsx`
 
 ### 5) Recipe Detail Component
@@ -100,5 +100,5 @@ npm run lint
 
 ### 6) Search Functionality
 - Implemented with query state + filtering:
-  - `src/app.jsx`
+  - `src/App.jsx`
   - `src/components/RecipeSearch.jsx`
